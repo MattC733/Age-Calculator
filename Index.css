@@ -1,0 +1,218 @@
+* {
+    color: #F7B05B;
+    font-size: large;
+}
+
+body {
+    background: #231651;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    margin: 5%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+    gap: 3 0%;
+    padding: 100 0%;
+}
+
+.title {
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.dropdownContainer {
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.yearBtn {
+    background-color: #FFC4EB;
+    color: #231651;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+
+.yearDropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.yearDropContent {
+    display: none;
+    position: absolute;
+    background-color: #FFC4EB;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    cursor: pointer;
+    max-height: 50vh;
+    overflow: scroll;
+}
+
+.yearDropContent a {
+    color: #231651;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.yearDropContent a:hover {
+    background-color: #F7B05B;
+}
+
+.yearDropdown:hover .yearDropContent {
+    display: block;
+}
+
+.yearDropdown:hover .yearBtn {
+    background-color: #55917F;
+}
+
+.monthBtn {
+    background-color: #FFC4EB;
+    color: #231651;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.monthDropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.monthDropContent {
+    display: none;
+    position: absolute;
+    background-color: #FFC4EB;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    cursor: pointer;
+    max-height: 50vh;
+    overflow: scroll;
+}
+
+.monthDropContent a {
+    color: #231651;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.monthDropContent a:hover {
+    background-color: #F7B05B;
+}
+
+.monthDropdown:hover .monthDropContent {
+    display: block;
+}
+
+.monthDropdown:hover .monthBtn {
+    background-color: #55917F;
+}
+
+
+.dayBtn {
+    background-color: #FFC4EB;
+    color: #231651;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.dayDropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dayDropContent {
+    display: none;
+    position: absolute;
+    background-color: #FFC4EB;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    cursor: pointer;
+    max-height: 50vh;
+    overflow: scroll;
+}
+
+.dayDropContent a {
+    color: #231651;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dayDropContent a:hover {
+    background-color: #F7B05B;
+}
+
+.dayDropdown:hover .dayDropContent {
+    display: block;
+}
+
+.dayDropdown:hover .dayBtn {
+    background-color: #55917F;
+}
+
+.buttonContainer {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    border: unset;
+}
+
+.subBtn {
+    border: none;
+    background-color: #FFC4EB;
+    color: #231651;
+    border-radius: 24px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    width: 100px;
+    border-radius: 24px;
+}
+
+.subBtn:hover {
+    background-color: #55917F;
+}
+
+.separateResultsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.totalResultsContainer {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: medium;
+}
